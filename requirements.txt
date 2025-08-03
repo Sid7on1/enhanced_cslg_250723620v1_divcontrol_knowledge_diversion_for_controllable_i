@@ -1,0 +1,61 @@
+# requirements.txt
+
+# Enterprise XR Eye Tracking System
+# Project: enhanced_cs.LG_2507.25620v1_DivControl_Knowledge_Diversion_for_Controllable_Image_Generation
+
+# Production-Grade Dependencies
+
+# Core dependencies
+torch==1.14.0
+numpy==1.24.2
+pandas==1.5.2
+
+# Image processing and computer vision libraries
+pillow==9.4.0
+opencv-python==4.5.5.64
+
+# Scientific computing and data manipulation
+scipy==1.9.3
+scikit-learn==1.1.2
+
+# Data serialization and storage
+pyyaml==6.0
+hdf5==1.10.6
+
+# Logging and debugging
+logging==0.5
+pdbpp==0.14.0
+
+# Test frameworks
+pytest==7.1.2
+mock==4.0.3
+
+# Type hints and linting
+mypy==0.982
+pylint==2.13.7
+
+# Additional utilities
+tqdm==4.64.0
+requests==2.27.1
+
+# Note: Ensure all packages are compatible and there are no conflicting dependencies.
+# Update package versions as needed to ensure compatibility and security.
+
+# Optional dependencies (if required for specific use cases)
+
+# GPU acceleration
+cudatoolkit==11.7.55
+
+# Distributed computing
+dask==2022.8.1
+
+# Natural language processing
+transformers==4.19.0
+nltk==3.6.6
+
+# Additional image processing
+scikit-image==0.19.2
+pillow-simd==9.0.1
+
+# Note: These dependencies may not be required for all use cases and can be installed optionally.
+# Include only what is necessary to keep the environment lean and secure.
