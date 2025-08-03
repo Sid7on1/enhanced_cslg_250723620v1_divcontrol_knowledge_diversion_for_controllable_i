@@ -1,0 +1,8 @@
+{
+  "from": "coder1",
+  "to": "manager",
+  "type": "critical_error",
+  "message": "Failed to generate code for training.py after 3 attempts",
+  "details": {},
+  "timestamp": "2025-08-03T21:01:47.334120"
+}
